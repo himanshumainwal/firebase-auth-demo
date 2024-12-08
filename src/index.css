@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    font-family: 'Noto Sans Mongolian', sans-serif;
+    background-color: rgb(249 250 251)
+}
+/* .brd{
+    border: 3px solid red;
+} */
+
