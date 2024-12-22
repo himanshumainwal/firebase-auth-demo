@@ -14,8 +14,7 @@ const Signup = () => {
     setError("");
     try {
       await createUserWithEmailAndPassword(auth, email, password);
-      alert("Signup successful! Redirecting to login page.");
-      navigate("/login");
+      navigate("/");
     } catch (err) {
       setError("Enter a valid email address");
     }
